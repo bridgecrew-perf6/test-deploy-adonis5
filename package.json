@@ -10,7 +10,6 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@adonisjs/assembler": "^3.0.0",
     "adonis-preset-ts": "^1.1.0",
     "eslint": "^7.16.0",
     "eslint-config-prettier": "^7.1.0",
@@ -23,6 +22,7 @@
     "youch-terminal": "^1.0.1"
   },
   "dependencies": {
+    "@adonisjs/assembler": "^3.0.0",
     "@adonisjs/core": "^5.0.4-preview-rc",
     "@adonisjs/repl": "^1.0.0",
     "proxy-addr": "^2.0.6",
