@@ -21,5 +21,21 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.get('/', async () => {
-  return { hello: 'world' }
+  return [
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+    { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
+  ]
 })
