@@ -39,3 +39,7 @@ Route.get('/', async () => {
     { hello: 'world', a: 'a', b: 'b', c: 'c', d: 'd', f: 'f', g: 'g', h: 'h', i: 'i', j: 'j' },
   ]
 })
+
+Route.get('/potato', async () => {
+  return [{ hello: 'Bruno' }]
+})
